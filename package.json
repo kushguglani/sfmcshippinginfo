@@ -1,0 +1,15 @@
+{
+  "name": "sfmcshippinginfo",
+  "version": "1.0.0",
+  "description": "sale force xml",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kush",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "xml": "^1.0.1"
+  }
+}
