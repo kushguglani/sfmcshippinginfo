@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port =  process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 var xml = require('xml');
 
 const payment_method = `<payment_method>
@@ -9,6 +9,11 @@ const payment_method = `<payment_method>
 <item name="credit card" detail="VISA" amount="31.00" suffix="*******1234" email=""/>
 <item name="credit card" detail="MasterCard" amount="31.00" suffix="*******1234" email=""/>
 </payment_method>`;
+
+const refund_billing = `<refund_billing>
+<item amount="16.00000" expiration="" gift_card_number="1110040000364856" imageUrl="https://images.timberland.com/is/image/TimberlandEU/EGIFTCARD-HERO1?wid=720"  last_four="" type="Gift Card"/>
+<item amount="18.00000" expiration="" gift_card_number="" imageUrl="https://images.timberland.com/is/image/TimberlandEU/EGIFTCARD-HERO1?wid=720"  last_four="5673" type="VISA"/>
+</refund_billing>`;
 
 app.get('/', (req, res) => {
     res.type('application/xml');
@@ -24,9 +29,14 @@ app.get('/', (req, res) => {
 </shipping_info>`)
 })
 
-app.get('/payment_method',(req,res)=>{
+app.get('/payment_method', (req, res) => {
     res.type('application/xml');
     res.send(payment_method)
+
+})
+app.get('/refund_billing', (req, res) => {
+    res.type('application/xml');
+    res.send(refund_billing)
 
 })
 
