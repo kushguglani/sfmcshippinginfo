@@ -1,0 +1,3 @@
+<canceled_order_items>
+	<item style="VN1234567" sku="VN:1234567:a:q:1:" name="CAN.0000000066" product_URL="CAN.0000000067" image_url="CAN.0000000068" color="CAN.0000000069" size="CAN.0000000070" sender_name="CAN.0000000071" sender_email="CAN.0000000072" recipient_name="CAN.0000000073" recipient_email="CAN.0000000074" gift_message="CAN.0000000075" quantity_canceled="CAN.0000000076" unit_price="CAN.0000000077" unit_price_unadjusted="CAN.0000000078" product_total="CAN.0000000079" reason_code="123456789" />
+</canceled_order_items>

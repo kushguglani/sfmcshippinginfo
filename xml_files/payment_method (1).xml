@@ -1,0 +1,6 @@
+<payment_method>
+	<item name="paypal" detail="" amount="12.00" suffix="" email="Lxxxx@xxxx"/>
+	<item name="giftcard" detail="" amount="31.00" suffix="*******1234" email="" />
+	<item name="credit card" detail="VISA" amount="31.00" suffix="*******1234" email=""/>
+	<item name="credit card" detail="MasterCard" amount="31.00" suffix="*******1234" email=""/>
+</payment_method>
