@@ -31,7 +31,6 @@ const shipped_order_items = `<shipped_order_items>
 
 const shipping_info= `<shipping_info>
 <item address1="Corso Buenos Aires" address2="" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="" organization_name="" postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state=""/>
-<item address1="Corso Buenos Aires" address2="" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="" organization_name="" postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state=""/>
 </shipping_info>`;
 
 const canceled_order_items = `<canceled_order_items>
