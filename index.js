@@ -13,7 +13,7 @@ const payment_method = `<payment_method>
 
 const order_items = `<order_items>
 <item style="VN1234567" sku="VN:1234567:a:q:1:" color="Dark Sapphire" image_url="http://images.timberland.com/is/image/TimberlandEU/A1RF1433-hero?$$" item_type="standard" name="Skye Peak - Men's Thermofibre™ Jacket" product_URL="https://dev.timberland.co.uk/webapp/wcs/stores/servlet/ProductDisplay?storeId=7105&amp;#38;urlLangId=-11&amp;#38;productId=171266&amp;#38;catalogId=11701&amp;#38;langId=-11" product_total="62.00" quantity="1" size="XL" unit_price="62.00" unit_price_unadjusted="62.00"/>
-<item style="ODUNOQ" color="Jester Red" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" item_type="standard" name="Men’s Eastham Polo Shirt Bright Red" product_URL="https://dev.timberland.co.uk/webapp/wcs/stores/servlet/ProductDisplay?storeId=7105&amp;#38;urlLangId=-11&amp;#38;productId=217490&amp;#38;catalogId=11701&amp;#38;langId=-11" product_total="65.00" quantity="1" size="XL" unit_price="65.00" unit_price_unadjusted="65.00"/>
+<item style="ODUNOQ" color="Jester Red" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" item_type="custom" name="Men’s Eastham Polo Shirt Bright Red" product_URL="https://dev.timberland.co.uk/webapp/wcs/stores/servlet/ProductDisplay?storeId=7105&amp;#38;urlLangId=-11&amp;#38;productId=217490&amp;#38;catalogId=11701&amp;#38;langId=-11" product_total="65.00" quantity="1" size="XL" unit_price="65.00" unit_price_unadjusted="65.00"/>
 </order_items>`;
 
 // const refund_billing = `<refund_billing>
