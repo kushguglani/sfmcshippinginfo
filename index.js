@@ -34,18 +34,22 @@ const refund_billing = `<refund_billing>
 <item amount="18.00000" expiration="" gift_card_number="" imageUrl="https://images.timberland.com/is/image/TimberlandEU/EGIFTCARD-HERO1?wid=720"  last_four="5673" type="VISA"/>
 </refund_billing>`;
 
+
 const shipped_order_items = `<shipped_order_items>
 <item style="VN1234567" sku="VN:1234567:a:q:1:" name="SHI.0000000038" product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" color="SHI.0000000041" size="SHI.0000000042" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="SHI.0000000048" unit_price="SHI.0000000049" unit_price_unadjusted="SHI.0000000050" product_total="SHI.0000000051" />
 <item style="VN1234568" sku="VN:1234567:a:q:1:" name="SHI.0000000039" product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="12345678" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="SHI.0000000048" unit_price="SHI.0000000049" unit_price_unadjusted="SHI.0000000050" product_total="SHI.0000000051" />
 </shipped_order_items>`;
+
+
 
 const shipping_info= `<shipping_info>
 <item address1="Corso Buenos Aires" address2="" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="" organization_name="" postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state=""/>
 </shipping_info>`;
 
 const canceled_order_items = `<canceled_order_items>
-<item style="VN1234567" sku="VN:1234567:a:q:1:" name="CAN.0000000066" product_URL="CAN.0000000067" image_url="CAN.0000000068" color="CAN.0000000069" size="CAN.0000000070" sender_name="CAN.0000000071" sender_email="CAN.0000000072" recipient_name="CAN.0000000073" recipient_email="CAN.0000000074" gift_message="CAN.0000000075" quantity_canceled="CAN.0000000076" unit_price="CAN.0000000077" unit_price_unadjusted="CAN.0000000078" product_total="CAN.0000000079" reason_code="123456789" />
+<item style="dummy style" sku="VN:1234567:a:q:1:" name="jacket " product_URL="https://dev.timberland.co.uk/webapp/wcs/stores/servlet/ProductDisplay?storeId=7105&amp;#38;urlLangId=-11&amp;#38;productId=171266&amp;#38;catalogId=11701&amp;#38;langId=-11" image_url="http://images.timberland.com/is/image/TimberlandEU/A1RF1433-hero?$$" color="blue " size="XS " sender_name="CAN.0000000071" sender_email="CAN.0000000072" recipient_name="CAN.0000000073" recipient_email="CAN.0000000074" gift_message="hello git mesage" quantity_canceled="1" unit_price="54" unit_price_unadjusted="54" product_total="54" reason_code="123456789" />
 </canceled_order_items>`;
+
 
 const pending_order_items =`<pending_order_items>
 <item style="VN1234567" sku="VN:1234567:a:q:1:" name="PEN.0000000081" product_URL="PEN.0000000082" image_url="PEN.0000000083" color="PEN.0000000084" size="PEN.0000000085" sender_name="PEN.0000000086" sender_email="PEN.0000000087" recipient_name="PEN.0000000088" recipient_email="PEN.0000000089" gift_message="PEN.0000000090" quantity_pending="PEN.0000000091" unit_price="PEN.0000000092" unit_price_unadjusted="PEN.0000000093" product_total="PEN.0000000094" />
