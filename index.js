@@ -37,7 +37,7 @@ const refund_billing = `<refund_billing>
 
 const shipped_order_items = `<shipped_order_items>
 <item style="VN1234567" sku="VN:1234567:a:q:1:" name="SHI.0000000038" product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" color="SHI.0000000041" size="SHI.0000000042" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="SHI.0000000048" unit_price="SHI.0000000049" unit_price_unadjusted="SHI.0000000050" product_total="SHI.0000000051" />
-<item style="VN1234568" sku="VN:1234567:a:q:1:" name="SHI.0000000039" product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="12345678" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="SHI.0000000048" unit_price="SHI.0000000049" unit_price_unadjusted="SHI.0000000050" product_total="SHI.0000000051" />
+<item style="VN1234568" sku="VN:1234567:a:q:1:" name="SHI.0000000039" color="SHI.0000000041" size="SHI.0000000042"  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="12345678" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="SHI.0000000048" unit_price="SHI.0000000049" unit_price_unadjusted="SHI.0000000050" product_total="SHI.0000000051" />
 </shipped_order_items>`;
 
 
@@ -106,3 +106,27 @@ app.get('/order_items2', (req, res) => {
 app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
 
+/*
+
+"payment_method_xml": "https://sfmcshippinginfo.herokuapp.com/payment_method",
+"shipping_info_xml": "https://sfmcshippinginfo.herokuapp.com/",
+"order_items_xml": " https://sfmcshippinginfo.herokuapp.com/order_items",
+
+
+
+                             "canceled_order_items_xml": " https://sfmcshippinginfo.herokuapp.com/canceled_order_items",
+                             "shipped_order_items_xml": "https://sfmcshippinginfo.herokuapp.com/shipped_order_items",
+                             "pending_order_items_xml": "https://sfmcshippinginfo.herokuapp.com/pending_order_items"
+
+
+Shipping Info -> https://sfmcshippinginfo.herokuapp.com/   or  https://sfmcshippinginfo.herokuapp.com/
+
+Order items -> https://sfmcshippinginfo.herokuapp.com/order_items
+Shipped order items -> https://sfmcshippinginfo.herokuapp.com/shipped_order_items
+Refund billing -> https://sfmcshippinginfo.herokuapp.com/refund_billing
+Pending order items -> https://sfmcshippinginfo.herokuapp.com/pending_order_items
+Canceled order items -> https://sfmcshippinginfo.herokuapp.com/canceled_order_items
+Payment method -> https://sfmcshippinginfo.herokuapp.com/payment_method
+
+
+*/
