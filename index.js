@@ -36,14 +36,15 @@ const refund_billing = `<refund_billing>
 
 
 const shipped_order_items = `<shipped_order_items>
-<item style="VN1234567" sku="VN:1234567:a:q:1:" name="SHI.0000000038" product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" color="SHI.0000000041" size="SHI.0000000042" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="234" product_total="234" />
-<item style="VN1234568" sku="VN:1234567:a:q:1:" name="SHI.0000000039" color="SHI.0000000041" size="SHI.0000000042"  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="12345678" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="3456" product_total="234" />
+<item item_type="standard" style="VN1234567" sku="VN:1234567:a:q:1:" name="SHI.0000000038" color="SHI.0000000041" size="SHI.0000000042"  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$"  carrier_code=""  date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="234" product_total="234" />
+<item item_type="custom" style="VN1234568" sku="VN:1234567:a:q:1:" name="SHI.0000000039" color="SHI.0000000041" size="SHI.0000000042"  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="12345678" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="3456" product_total="234" />
 </shipped_order_items>`;
 
 
 
 const shipping_info= `<shipping_info>
-<item address1="Corso Buenos Aires" address2="" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="" organization_name="" postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state=""/>
+<item item_type="standard" address1="Corso Buenos Aires" address2="" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="" organization_name="" postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state=""/>
+<item item_type="custom" address1="Corso Buenos Aires1" address2="" city="London" country="GB" first_name="Pluto1" last_name="Qui2" middle_name="" organization_name="" postal_code="WC2H 0JN1" ship_mode_description="Standard delivery" state=""/>
 </shipping_info>`;
 
 const canceled_order_items = `<canceled_order_items>
