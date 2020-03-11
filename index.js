@@ -48,7 +48,7 @@ const shipping_info= `<shipping_info>
 </shipping_info>`;
 
 const canceled_order_items = `<canceled_order_items>
-<item style="dummy style" sku="VN:1234567:a:q:1:" name="jacket " product_URL="https://dev.timberland.co.uk/webapp/wcs/stores/servlet/ProductDisplay?storeId=7105&amp;#38;urlLangId=-11&amp;#38;productId=171266&amp;#38;catalogId=11701&amp;#38;langId=-11" image_url="http://images.timberland.com/is/image/TimberlandEU/A1RF1433-hero?$$" color="blue " size="XS " sender_name="CAN.0000000071" sender_email="CAN.0000000072" recipient_name="CAN.0000000073" recipient_email="CAN.0000000074" gift_message="hello git mesage" quantity_canceled="1" unit_price="54" unit_price_unadjusted="54" product_total="54" reason_code="123456789" />
+<item item_type="standard" style="dummy style" sku="VN:1234567:a:q:1:" name="jacket " product_URL="https://dev.timberland.co.uk/webapp/wcs/stores/servlet/ProductDisplay?storeId=7105&amp;#38;urlLangId=-11&amp;#38;productId=171266&amp;#38;catalogId=11701&amp;#38;langId=-11" image_url="http://images.timberland.com/is/image/TimberlandEU/A1RF1433-hero?$$" color="blue " size="XS " sender_name="CAN.0000000071" sender_email="CAN.0000000072" recipient_name="CAN.0000000073" recipient_email="CAN.0000000074" gift_message="hello git mesage" quantity_canceled="1" unit_price="54" unit_price_unadjusted="54" product_total="54" reason_code="123456789" />
 </canceled_order_items>`;
 
 
