@@ -59,7 +59,7 @@ const pending_order_items =`<pending_order_items>
 app.get('/', (req, res) => {
     res.type('application/xml');
     res.send(`<shipping_info>
-    <item address1="Corso Buenos Aires" address2="Aires2" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="" organization_name="" postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state=""/>
+    <item address1="Corso Buenos Aires" address2="Aires2" city="London" country="GB" first_name="Pluto" last_name="Qui" middle_name="John" organization_name="VF International S.a.g.l." postal_code="WC2H 0JN" ship_mode_description="Standard delivery" state="New York"/>
    </shipping_info>`)
 })
 
