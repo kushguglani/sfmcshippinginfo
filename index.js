@@ -37,6 +37,7 @@ const refund_billing2 = `<refund_billing></refund_billing>`;
 
 const shipped_order_items = `<shipped_order_items>
 <item item_type="standard" style="VN1234567" sku="VN:1234567:a:q:1:" name="jacket" color="blue " size="XS "  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code="" date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="234.12" product_total="234.12"/>
+<item item_type="standard" style="VN1234567" sku="VN:1234567:a:q:1:" name="jacket" color="blue1 " size="S "  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code="" date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="234.12" product_total="234.12"/>
 </shipped_order_items>`;
 
 
