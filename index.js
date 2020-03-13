@@ -29,15 +29,14 @@ const order_items2 = `<order_items>
 // <item amount="16.00000" expiration="" gift_card_number="1110040000364856" imageUrl="https://images.timberland.com/is/image/TimberlandEU/EGIFTCARD-HERO1?wid=720"  last_four="" type="Gift Card"/>
 // </refund_billing>`;
 
-const refund_billing = `<refund_billing>
-<item amount="16.00000" expiration="" gift_card_number="1110040000364856" imageUrl="https://images.timberland.com/is/image/TimberlandEU/EGIFTCARD-HERO1?wid=720"  last_four="" type="Gift Card"/>
-<item amount="18.00000" expiration="" gift_card_number="" imageUrl="https://images.timberland.com/is/image/TimberlandEU/EGIFTCARD-HERO1?wid=720"  last_four="5673" type="VISA"/>
-</refund_billing>`;
+const refund_billing = `<refund_billing><item amount="50.00" expiration="2023-03-12" gift_card_number="1110040000963659" last_four="" type="Gift Card"/>
+<item amount="50.00" expiration="2023-03-12" gift_card_number="1110040000963659" last_four="" type="Gift Card"/></refund_billing>`;
+
+const refund_billing2 = `<refund_billing></refund_billing>`;
 
 
 const shipped_order_items = `<shipped_order_items>
-<item item_type="standard" style="VN1234567" sku="VN:1234567:a:q:1:" name="SHI.0000000038" color="SHI.0000000041" size="SHI.0000000042"  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$"  carrier_code=""  date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="234" product_total="234" />
-<item item_type="custom" style="VN1234568" sku="VN:1234567:a:q:1:" name="SHI.0000000039" color="SHI.0000000041" size="SHI.0000000042"  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code=""  date_shipped="" tracking_URL="" tracking_num="12345678" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="3456" product_total="234" />
+<item item_type="standard" style="VN1234567" sku="VN:1234567:a:q:1:" name="jacket" color="blue " size="XS "  product_URL="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" image_url="http://images.timberland.com/is/image/TimberlandEU/0YH1TTR7-hero?$$" carrier_code="" date_shipped="" tracking_URL="" tracking_num="09864" shipping_duration="" shipping_method="" sender_name="SHI.0000000043" sender_email="SHI.0000000044" recipient_name="SHI.0000000045" recipient_email="SHI.0000000046" gift_message="SHI.0000000047" quantity_shipped="1" unit_price="123" unit_price_unadjusted="234.12" product_total="234.12"/>
 </shipped_order_items>`;
 
 
@@ -81,6 +80,11 @@ app.get('/pending_order_items', (req, res) => {
 app.get('/refund_billing', (req, res) => {
     res.type('application/xml');
     res.send(refund_billing)
+
+})
+app.get('/refund_billing2', (req, res) => {
+    res.type('application/xml');
+    res.send(refund_billing2)
 
 })
 app.get('/shipping_info', (req, res) => {
